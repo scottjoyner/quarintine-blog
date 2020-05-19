@@ -1,2 +1,2 @@
-# quarintine-blog
-This is a project I worked on to entertain myself
+# Kipnerter's Quarintine Blog
+Using SQLite, Django, Bootstrap
