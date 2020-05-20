@@ -2,7 +2,7 @@ from . import views
 from django.urls import include
 
 from django.urls import path
-from .feeds import LatestPostsFeed, AtomSiteNewsFeed, AboutFeed
+from .feeds import LatestPostsFeed, AtomSiteNewsFeed #, AboutFeed
 
 urlpatterns = [
     path("feed/rss", LatestPostsFeed(), name="post_feed"),
